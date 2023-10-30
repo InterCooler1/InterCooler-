@@ -1,4 +1,7 @@
-### Hi there 👋
+### Hi there. Welcome to FrzrTech
+i'm currently learning programming.
+looking to collaborate on Python projects
+ask me about web development👋
 
 <!--
 **frzrTech/frzrtech** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
