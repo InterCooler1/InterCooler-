@@ -1,4 +1,4 @@
-# 🌐 FrzrTech Personal Webpage
+# 🌐 InterCooler Personal Webpage
 
 Welcome to the official personal webpage for **InterCooler** — a space to showcase my learning journey, share projects, and explore web development.
 
