@@ -24,3 +24,23 @@ I'm currently learning programming and interested in:
 
 ## 📦 Project Structure
 
+📁 .github/workflows/
+📄 index.html
+📄 style.css
+📄 script.js
+📄 README.md
+
+
+---
+
+## 🛠️ How to Use
+
+1. Clone the repo
+2. Open `index.html` in your browser
+3. Customize the code and push to your own GitHub Pages
+
+---
+
+## 🔗 Live Demo
+
+Coming soon via GitHub Pages!
