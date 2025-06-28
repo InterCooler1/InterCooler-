@@ -2,77 +2,41 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <!-- Your meta tags, links, and other styles -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>FrzrTech | Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
 </head>
 <body>
-  <i class="fa fa-arrow-up" aria-hidden="true" onclick="scrollToTop();"></i>
-  <!-- Your sections and content -->
+  <header>
+    <h1>👋 Hi, I'm FrzrTech</h1>
+    <p>Learning to code and build cool stuff with Python & the web.</p>
+  </header>
 
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.6.1/gsap.min.js" integrity="sha512-cdV6j5t5o24hkSciVrb8Ki6FveC2SgwGfLE31+ZQRHAeSRxYhAQskLkq3dLm8ZcWe1N3vBOEYmmbhzf7NTtFFQ==" crossorigin="anonymous"></script>
-  <script>
-    const tl = gsap.timeline({ defaults: { ease: "power1.out" } });
+  <main>
+    <section>
+      <h2>💼 Projects</h2>
+      <ul>
+        <li>Personal webpage (this one!)</li>
+        <li>More coming soon...</li>
+      </ul>
+    </section>
 
-    tl.from(".navBar", { y: "-10rem", duration: 1 });
-    tl.from(".navBar .navBar__menu ul li", {
-      y: "-2rem",
-      opacity: 0,
-      duration: 1,
-      stagger: 0.25,
-    });
-    tl.to(
-      ".sec1__content .sec1__contentDetail h1",
-      { y: "0rem", duration: 1, stagger: 0.25 },
-      "=-1"
-    );
-    tl.from(".sec1__imgBx img", { opacity: 0, x: "50%", duration: 1.5 });
-    tl.from(
-      ".sec1__imgBx .sec1__design1",
-      { opacity: 0, x: "3rem", duration: 1.5 },
-      "=-1"
-    );
-    tl.from(
-      ".sec1__imgBx .sec1__design2",
-      { opacity: 0, x: "-3rem", duration: 1.5 },
-      "=-1"
-    );
-    tl.from(
-      ".sec1__design3",
-      { opacity: 0, x: "-30%", duration: 1.5 },
-      "=-2"
-    );
-    tl.from(".sec1__design4", { opacity: 0, duration: 1.5 }, "=-2");
-    tl.from(".sec1__content a", { opacity: 0, duration: 1.5 }, "=-3");
-  </script>
+    <section>
+      <h2>🔧 Skills</h2>
+      <p>Currently learning:</p>
+      <ul>
+        <li>HTML, CSS, JavaScript</li>
+        <li>Python basics</li>
+        <li>Version control (Git & GitHub)</li>
+      </ul>
+    </section>
+  </main>
 
-  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-  <script>
-    AOS.init({
-      duration: 1000,
-      offset: 0,
-    });
-  </script>
+  <footer>
+    <p>&copy; 2025 FrzrTech. Built with ❤️ and curiosity.</p>
+  </footer>
 
-  <script>
-    var sec1__menuIcon = document.querySelector(".sec1__menuIcon");
-    var menuBar = document.querySelector(".menuBar");
-    sec1__menuIcon.addEventListener("click", function () {
-      sec1__menuIcon.classList.toggle("active");
-      menuBar.classList.toggle("active");
-    });
-  </script>
-
-  <script type="text/javascript">
-    window.addEventListener('scroll', function () {
-      var scroll = document.querySelector('.fa.fa-arrow-up');
-      scroll.classList.toggle("active", window.scrollY > 500)
-    })
-
-    function scrollToTop() {
-      window.scrollTo({
-        top: 0,
-        behavior: 'smooth'
-      })
-    }
-  </script>
+  <script src="script.js"></script>
 </body>
 </html>
