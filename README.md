@@ -1,19 +1,26 @@
-### Hi there. Welcome to FrzrTech
-i'm currently learning programming.
-looking to collaborate on Python projects
-ask me about web development👋
+# 🌐 FrzrTech Personal Webpage
 
-<!--
-**frzrTech/frzrtech** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+Welcome to the official personal webpage for **FrzrTech** — a space to showcase my learning journey, share projects, and explore web development.
 
-Here are some ideas to get you started:
+---
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+## 💡 About
+
+I'm currently learning programming and interested in:
+- 🐍 Python projects
+- 🌐 Front-end development (HTML, CSS, JS)
+- 🤝 Collaborating on beginner-friendly tech ideas
+
+---
+
+## 🚀 Tech Stack
+
+- HTML5
+- CSS3 (custom styling)
+- JavaScript
+- GitHub Pages for deployment
+
+---
+
+## 📦 Project Structure
+
